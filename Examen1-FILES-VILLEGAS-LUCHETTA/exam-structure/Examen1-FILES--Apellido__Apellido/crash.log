@@ -1,0 +1,23 @@
+[2026-07-13 12:55:43] [INFO] --- Sistema de Log Inicializado ---
+[2026-07-13 12:55:43] [INFO] Iniciando ejecución automatizada del programa.
+[2026-07-13 13:11:20] [INFO] --- Sistema de Log Inicializado ---
+[2026-07-13 13:11:20] [INFO] Iniciando ejecución automatizada del programa.
+[2026-07-13 13:11:20] [INFO] Ejecución automatizada finalizada correctamente.
+[2026-07-13 13:15:49] [INFO] --- Sistema de Log Inicializado ---
+[2026-07-13 13:15:49] [INFO] Iniciando ejecución automatizada del programa.
+jul. 13, 2026 1:15:49 P. M. com.examen.Estandarizador estandarizar
+GRAVE: Error al estandarizar
+java.nio.file.NoSuchFileException: juegos.dat
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at java.base/java.nio.file.Files.readString(Files.java:3366)
+	at java.base/java.nio.file.Files.readString(Files.java:3325)
+	at com.examen.Estandarizador.estandarizar(Estandarizador.java:50)
+	at com.examen.Main.main(Main.java:29)
+
+[2026-07-13 13:15:49] [INFO] Ejecución automatizada finalizada correctamente.
